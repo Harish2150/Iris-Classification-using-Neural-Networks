@@ -1,8 +1,8 @@
-Iris-Classification-Using-Neural-Networks
+# Iris-Classification-Using-Neural-Networks
 
 This project demonstrates how to train a neural network on the Iris dataset using TensorFlow and Keras. The Iris dataset contains 150 samples of iris flowers with 4 features: sepal length, sepal width, petal length, and petal width. The task is to classify these samples into three different species: Setosa, Versicolor, and Virginica.
 
-Procedure
+# Procedure
 1. Dataset:
 
 The Iris dataset consists of 150 samples, each with 4 features:
@@ -16,6 +16,7 @@ There are 3 target classes (species):
 Setosa
 Versicolor
 Virginica
+
 2. Preprocessing:
 
 One-Hot Encoding: The target labels are one-hot encoded to be compatible with the softmax activation in the output layer.
@@ -38,7 +39,7 @@ Training is performed for 50 epochs with a batch size of 8, and a validation spl
 
 After training, the model is evaluated on a test set to determine its accuracy.
 
-Output:
+# Output:
 1. Training Output:
 
 During training, the loss and accuracy of both the training and validation sets are shown after each epoch:
@@ -73,7 +74,7 @@ Predicted classes: [1 0 2 1 1 0 1 2 1 1 2 0 0 0 0 1 2 1 1 2 0 2 0 2 2 2 2 2 0 0]
 
 True classes: [1 0 2 1 1 0 1 2 1 1 2 0 0 0 0 1 2 1 1 2 0 2 0 2 2 2 2 2 0 0]
 
-Explanation:
+# Explanation:
 Training Output: Displays the loss and accuracy for both training and validation sets after each epoch.
 
 Test Accuracy: The model's accuracy when evaluated on the test dataset (100% accuracy in this case).
