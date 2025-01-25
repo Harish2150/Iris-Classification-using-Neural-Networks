@@ -81,7 +81,7 @@ Test Accuracy: The model's accuracy when evaluated on the test dataset (100% acc
 
 Predictions: The predicted classes and the true classes for the test dataset, showing that all predictions match the true classes.
 
-Notes:
+# Notes:
 The number of layers, units, epochs, and batch size can be adjusted to further optimize model performance.
 
 The model can also be enhanced by experimenting with different activation functions, optimizers, or regularization techniques.
